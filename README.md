@@ -4,7 +4,7 @@
 
 ---
 
-   Inspired by [ManageBac](www.managebac.com)  
+   Inspired by [ManageBac](https://www.managebac.com)  
 
 
    Project launching date: 2020/09/15  
