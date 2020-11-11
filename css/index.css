@@ -196,12 +196,13 @@ textarea {
     background-repeat: no-repeat;
     background-size: cover;
     background-attachment: fixed;
-    -webkit-background-size: 100% auto;
-    -moz-background-size: 100% auto;
-    -o-background-size: 100% auto;
-    background-size: 100% auto;
+    -webkit-background-size: cover;
+    -moz-background-size: cover;
+    -o-background-size: cover;
+    background-position: center;
+    background-clip: content-box;
     overflow: hidden;
-    background-image: url(../img/login.png);
+    background-image: url(../img/main2.jpg);
 }
 
 #Legend-filter {
@@ -374,9 +375,27 @@ textarea {
     box-shadow: 0px 0px 5px lightgrey;
 }
 
-#Subject-Teacher-title {
-    color: #737373;
+#Subject-Teacher-description {
     float: right;
+    width: calc(100% - 160px);
+    height: 120px;
+}
+
+#Subject-Teacher-title {
+    float: left;
+    color: #737373;
+    height: 100px;
+}
+
+#Subject-Teacher-picture {
+    float:left;
+    height: 100px;
+    width: 100px;
+    margin: 15px;
+    border-radius: 100px;
+    vertical-align: middle;
+    background: url(../img/default_user.jpg);
+    background-size: contain;
 }
 
 
