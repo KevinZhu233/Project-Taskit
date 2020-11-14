@@ -26,6 +26,10 @@
 Things to work on:  
 
 1. All basic ManageBac functionality  
+	- Student-Teacher management
+	- Class grouping & attandance
+	- Assignment creation & digital submission
+	- Timetable
 2. Aesthetically pleasing user interface  
 	- Flat UI Design  
     - UI Animation  
